@@ -5,9 +5,10 @@ import { AppComponent }  from './app.component';
 import { SearchComponent } from './components/search/search.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
+import { routing} from './app.routing';
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule ,routing],
   declarations: [ AppComponent, AboutComponent, SearchComponent, NavbarComponent  ],
   bootstrap:    [ AppComponent ]
 })
